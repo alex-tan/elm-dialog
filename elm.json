@@ -3,7 +3,7 @@
     "name": "alex-tan/elm-dialog",
     "summary": "A modal dialog widget for Elm. Forked from krisajenkins.",
     "license": "MIT",
-    "version": "5.0.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Dialog"
     ],
