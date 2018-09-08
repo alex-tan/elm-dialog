@@ -12,7 +12,7 @@ import Utils exposing (..)
 
 root : Model -> Html Msg
 root model =
-    div [ style [ ( "margin", "15px" ) ] ]
+    div [ style "margin" "15px" ]
         [ bootstrap
         , div [ class "container-fluid" ]
             [ h1 [] [ text "Advanced Demo" ]
@@ -27,9 +27,10 @@ root model =
                         |> Html.map VillainsMsg
                     ]
                 ]
-              -- What if both the heroes and villans want to show a
-              -- dialog? How do we ensure we only show one at a time?
-              -- Like this:
+
+            -- What if both the heroes and villans want to show a
+            -- dialog? How do we ensure we only show one at a time?
+            -- Like this:
             , oneOf
                 [ Dialog.mapMaybe HeroesMsg (Heroes.dialog model.heroes)
                 , Dialog.mapMaybe VillainsMsg (Villains.dialog model.villains)

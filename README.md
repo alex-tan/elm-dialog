@@ -1,5 +1,11 @@
 # Elm Dialog - A Modal Dialog Widget for Elm
 
+## NOTE: This is a fork.
+
+Note: this is a fork of krisajenkins/elm-dialog. I'm publishing this as a way to upgrade to elm 0.19, though if by the time you're reading this krisajenkins version is upgraded I recommend using that package instead.
+
+## END NOTE
+
 Elm modal dialog boxes that fits in neatly with the Elm architecture.
 
 ## Aims
